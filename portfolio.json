@@ -1,0 +1,305 @@
+{
+  "Bio": {
+    "Name": "Ethan C. Randolph",
+    "Description": "I am Ethan Randolph. A recent graduate with a BS in Computer Science, I strive to grow and improve myself and the technologies around me utilizing the tools at hand.\n\nI was last employed at California State University, San Bernardino. I was a XR Game Engine Programmer, who is seeking to improve higher education through the use of bleeding edge and experimental technologies. Please take a look at the projects I have contributed at this position.",
+    "Email": "ethan1randolph@gmail.com",
+    "LinkedInLink": "https://www.linkedin.com/in/ethan-randolph-6a7489246/",
+    "LinkedInDisplay": "linkedin.com/in/ethan-randolph-6a7489246/",
+    "GithubLink": "https://github.com/ethanr555",
+    "GithubDisplay": "github.com/ethanr555",
+    "WebsiteLink": "https://ethanrandolph.com",
+    "WebsiteDisplay": "ethanrandolph.com"
+  },
+  "Projects": [
+    {
+      "Name": "The Phoenix of Gaza (Unreal Application)",
+      "Date": "2022-2023",
+      "ProjectSiteName": "GazaXR",
+      "ProjectSiteLink": "https://www.gazaxr.com/",
+      "CompanyName": "Extended Reality for Learning Lab at CSUSB",
+      "CompanyLink": "https://www.csusb.edu/xreal-lab",
+      "Description": " This is the Phoenix of Gaza, a project designed to reveal the inner life of the strip of Gaza that is not normally revealed to the outside world. The unreal version attempts to recreate and enhance the original Mozilla Hubs version by recreating the core features that were present, and then utilizing the Unreal Engine capabilities to further enhance this vision. The original version utilized Mozilla Hubs to hosted the imagery and videos of Gaza, but it was running into technical limitations. Utilizing PixelStreaming, this version was recreated in Unreal by using PixelStreaming to create the accessibilty that allows people who do not have the desktop or vr hardware to view the enhanced graphics of the Unreal Engine version. In addition epxeriences such as 360 photo spheres were enhanced with C++ (not possible with Mozilla Hubs) to allow the camera to be perfectly centered in the 360 sphere, and allowed the 360 sphere to be expanded client-side and a video to play that replaces the image thumbnail. The Unreal version recreates the multiplayer by taking advantage of Unreal Engine's built-in multiplayer systems, along with Vivox functionality to add excellent free voice chat for this small project. When I stopped working on it, there was much to be added, but I provided the core foundation and functionality that were the biggest concerns with the project. ",
+      "DescriptionItems": [
+        "Originally a “hub” located on Mozilla Hubs, it needed to moved to a new platform in order to be able to expand it",
+        "Utilized Unreal Engine framework to make a new game for it and implemented optimized 360 video streaming, Vivox voice chat, Unreal Engine multiplayer, and accessible controls",
+        "Helped raise awareness through a 2 day event where 150 students and faculty experienced this application with positive results, and continues to be utilized by the clients in the University of Colorado"
+      ],
+      "Team": "Lead Software Developer (myself), 2 3D Artists, 1 Photographer",
+      "Tools": [
+        "Unreal Engine 5.2",
+        "C++",
+        "Git",
+        "Node.js",
+        "Python",
+        "Flask",
+        "PixelStreaming",
+        "Vivox Voice Services",
+        "Blender"
+      ],
+      "Videos": [
+        "https://www.youtube-nocookie.com/embed/pmUPg3nQDVA?si=PwzkpQgmk8r9kRU5",
+        "https://www.youtube-nocookie.com/embed/6gC5w_5JRkI?si=xlyd1XskvNexwYa9"
+      ],
+      "Images": [
+        "https://d2m6vacaxnz5yc.cloudfront.net/phoenixofgaza/gaza1.png",
+        "https://d2m6vacaxnz5yc.cloudfront.net/phoenixofgaza/gaza2.png",
+        "https://d2m6vacaxnz5yc.cloudfront.net/phoenixofgaza/gaza3.png",
+        "https://d2m6vacaxnz5yc.cloudfront.net/phoenixofgaza/gaza4.png",
+        "https://d2m6vacaxnz5yc.cloudfront.net/phoenixofgaza/gaza5.png"
+
+      ],
+      "ImageThumbnails": [
+        "https://d2m6vacaxnz5yc.cloudfront.net/phoenixofgaza/Thumbnails/gaza1thumb.png",
+        "https://d2m6vacaxnz5yc.cloudfront.net/phoenixofgaza/Thumbnails/gaza2thumb.png",
+        "https://d2m6vacaxnz5yc.cloudfront.net/phoenixofgaza/Thumbnails/gaza3thumb.png",
+        "https://d2m6vacaxnz5yc.cloudfront.net/phoenixofgaza/Thumbnails/gaza4thumb.png",
+        "https://d2m6vacaxnz5yc.cloudfront.net/phoenixofgaza/Thumbnails/gaza5thumb.png"
+      ],
+      "Thumbnail": "https://d2m6vacaxnz5yc.cloudfront.net/phoenixofgaza/Thumbnails/gaza3thumb.png"
+    },
+    {
+      "Name": "Cell Biology VR",
+      "Date": "2022-2023",
+      "CompanyName": "Extended Reality for Learning Lab at CSUSB",
+      "CompanyLink": "https://www.csusb.edu/xreal-lab",
+      "Description": " This was a project commmission by a Biology professor to reconstruct a cell that a student can explore. It stays simplified for the course material it was designed for and tests the students on their Biology knowledge to complete the assignment. Students are to go to each organelle and configure it using levers. They will be guided to some extent and given a few tries. After they complete that stage, a new stage occurs that causes an extracellular event. In this case, it was heat stress, and the student will have to reconfigure the cell to adapt to the new situation with new options present and new areas of the cell they can explore. I was the former project lead of this project. I met with the professor on a bi-weekly basis, and designed the systems to read lesson files that store the organelle positions and answers, in case this project was expanded upon. I learned Niagara systems to create many particle systems to add visual flair in the VR headset without taxing it too much from traditional means. I also created a lesson editor, which is an inhouse tool (accessible as a map in the Unreal Engine project files) that allows other developers to easily design different lessons for testing purposes or to create alterations of the existing elements per the client's requests. I also worked with our artist to provide art inspirations based on the professor'srequirements and to ensure that the technical design of the models allowed our programmers to easily adjust them for the spawn systems and visual display. ",
+      "DescriptionItems": [
+        "At CSUSB, we were taking commissions for new projects to work on for faculty for 2023",
+        "One professor wanted students to experience a Virtual Reality experience of being inside of a plant cell",
+        "With a fellow artist and programmer, developed a test that takes place inside of a virtual cell, utilizing Unreal Engine, Niagara particle systems, json-formatted lessons, and a custom editor in Unreal to edit the lessons",
+        "It will be tested with students and eventually tested with the target class as extra-credit during the Spring 2024 semester"
+      ],
+      "Team": "Project manager/Software Developer (Me), 1 3D Artist, 1 Software Developer",
+      "Tools": [
+        "Unreal 5.1",
+        "C++",
+        "Git",
+        "Blender"
+      ],
+      "Videos": [
+        "https://www.youtube-nocookie.com/embed/iTBotKlVX5A?si=yOC1XImNrNxgflru",
+        "https://www.youtube-nocookie.com/embed/835QfeTZBDo?si=XvPS_csxmq87CiCy"
+      ],
+      "Images": [
+        "https://d2m6vacaxnz5yc.cloudfront.net/cellbiologyvr/cellbio3.png",
+        "https://d2m6vacaxnz5yc.cloudfront.net/cellbiologyvr/cellbio4.png",
+        "https://d2m6vacaxnz5yc.cloudfront.net/cellbiologyvr/cellbio5.png",
+        "https://d2m6vacaxnz5yc.cloudfront.net/cellbiologyvr/cellbio6.png"
+      ],
+      "ImageThumbnails": [
+        "https://d2m6vacaxnz5yc.cloudfront.net/cellbiologyvr/Thumbnails/cellbio3thumb.png",
+        "https://d2m6vacaxnz5yc.cloudfront.net/cellbiologyvr/Thumbnails/cellbio4thumb.png",
+        "https://d2m6vacaxnz5yc.cloudfront.net/cellbiologyvr/Thumbnails/cellbio5thumb.png",
+        "https://d2m6vacaxnz5yc.cloudfront.net/cellbiologyvr/Thumbnails/cellbio6thumb.png"        
+      ],
+      "Thumbnail": "https://d2m6vacaxnz5yc.cloudfront.net/cellbiologyvr/Thumbnails/cellbio3thumb.png"
+    },
+    {
+      "Name": "xREAL VR Tutorial Module",
+      "Date": "2022",
+      "CompanyName": "Extended Reality for Learning Lab at CSUSB",
+      "CompanyLink": "https://www.csusb.edu/xreal-lab",
+      "Description": " The VR Tutorial is Unreal Plugin designed for internal use for the xREAL Lab. It is designed to teach users the xREAL VR control scheme and help first time users get acustomed to VR. I solely created this after it was expressed that the lab needed a tutorial for new users. We already had a few measures of creating tutorial schemes within each project, but having a standardized way to implement tutorial elements and reduce future workload was desired. As a result, I created a modular and scalable tutorial plugin that can easily be added to xREAL projects, configured to each project's specific control scheme. Over time, more tutorial modules can be easily added as the standardized control scheme gets expanded over time. ",
+      "DescriptionItems": [
+        "Test Item 1",
+        "Test Item 2",
+        "Test Item 3"
+      ],
+      "Tools": [
+        "Unreal Engine 5",
+        "C++",
+        "Git"
+      ],
+      "Videos": [
+        "https://www.youtube-nocookie.com/embed/XHJE0ieTfbw?si=fhdw28P5VGLCxnzz"
+      ],
+      "Images": [
+        "https://d2m6vacaxnz5yc.cloudfront.net/vrtutorial/vrtut1.png",
+        "https://d2m6vacaxnz5yc.cloudfront.net/vrtutorial/vrtut2.png",
+        "https://d2m6vacaxnz5yc.cloudfront.net/vrtutorial/vrtut3.png"
+      ],
+      "ImageThumbnails": [
+         "https://d2m6vacaxnz5yc.cloudfront.net/vrtutorial/Thumbnails/vrtut1thumb.png",
+         "https://d2m6vacaxnz5yc.cloudfront.net/vrtutorial/Thumbnails/vrtut2thumb.png",
+         "https://d2m6vacaxnz5yc.cloudfront.net/vrtutorial/Thumbnails/vrtut3thumb.png"
+      ],  
+      "Thumbnail": "https://d2m6vacaxnz5yc.cloudfront.net/vrtutorial/Thumbnails/vrtut2thumb.png"
+    },
+    {
+      "Name": "Unreal Chatbot",
+      "Date": "2022",
+      "CompanyName": "Extended Reality for Learning Lab at CSUSB",
+      "CompanyLink": "https://www.csusb.edu/xreal-lab",
+      "Description": " The CSUSB Virtual assistant was an in development learning assistant intended on helping students navigate and answer logistical and educational answers regarding their class schedules. The last build I worked on contained two key modes: class schedule questions and syllabus questions. Class schedule questions allows students to ask questions regarding the current class schedule, such as if a certain course is available, times the course is at, how many seats are available, etc. The syllabus questions mode allowed students to be able to enter a course number (in the demonstration, we used a select few syllabus', with permission from the respective professors) and ask questions regarding the syllabus, such as who the professor is, if they can earn an incomplete, when listed assignments are due, how to contact the professor, etc. The development I was involved with regarding this project was creating the Unreal engine front-end client for the GPT-4 powered server. The client utilized key plugins to help speed up development to have a working prototype, such as socket.io support, metahuman visuals, and oculus lip sync. What I did was interface with the socket.io library to communicate to a python server developed by another developer. The question answer flow is as follows:\n-Audio input would be captured from student asking the question.\n-Audio bytes are sent to python server, where it converts the bytes into text through GPT-Whisper.\n-Text is sent back to client. Client then send text back to server to get an answer.\n-Server receives question, and through GPT-4 retrieves an answer, after prefacing question with important data related to the question (for example, class schedule information)\n-Server returns answer, and client receives it.\n-Client parses through answer, fragmenting it into smaller chunks, and then sends each substring answer concurrently to the server to receive an audio bytes version.\n-Server receives each audio byte bunch, and utilizes Google Cloud Text To Speech to make audio bytes.\n-Client receives each audio byte chunk, and concurrently renders Oculus Lip Sync animation for the respective audio chunk.\n-Once the render for the first audio chunk is finished, the animation and audio for said chunk starts playing to the user. each chunk and animation finished during this will be queued.\n-Once the client plays through each chunk. It waits for another question.\nI interaced all these plugins to work in tandem with each other, and properly ensured that the client remained compatible with server updates as time went on. ",
+      "DescriptionItems": [
+        "The xREAL was researching and developing a back-end for ChatGPT to interact with campus materials to assist students",
+        "The project lead wanted a better way to present the AI through Metahumans in Unreal Engine and have a voice interface to communicate",
+        "With another programmer, developed an Unreal application with a Metahuman that transmit audio recordings from the user and returns it with animated lip syncing of the answers",
+        "This demo was used at 5+ promotional events for xREAL lab to further get its name known across the campus, which would lead to more interest for bigger projects and future AI projects"
+      ],
+      "Team": "2 Software Developers (Me)",
+      "Tools": [
+        "Unreal Engine 5.1",
+        "Git"
+      ],
+      "Videos": [
+        "https://www.youtube-nocookie.com/embed/SGu02IdLz90?si=r-xbN3uvvB5eQgcf"
+      ],
+      "Images": [
+        "https://d2m6vacaxnz5yc.cloudfront.net/virtualassistant/virtualass1.png"
+      ],
+      "ImageThumbnails": [
+          "https://d2m6vacaxnz5yc.cloudfront.net/virtualassistant/Thumbnails/virtualass1thumb.png"
+      ],
+      "Thumbnail": "https://d2m6vacaxnz5yc.cloudfront.net/virtualassistant/Thumbnails/virtualass1thumb.png"
+    },
+    {
+      "Name": "Portfolio Website",
+      "Date": "2022-2023",
+      "CodeRepoName": "Github",
+      "CodeRepoLink": "https://github.com/ethanr555/ethanr555.github.io",
+      "ProjectSiteName": "ethanr555.github.io",
+      "ProjectSiteLink": "ethanr555.github.io",
+      "Description": "This website is designed not only for practice for HTML, CSS, and JavaScript, but it is also intended to demonstrate the projects I have worked on in my career. I have a mixture of career portfolio for projects I have worked on for my job, while my side projects are for my free time and allow me to flex my skills for stuff I am more passionate about.",
+      "DescriptionItems": [
+        "Needed to upgrade my original hard-coded HTML website to ensure that it could be update relatively easily and quickly without needed to manually add additional pages.",
+        "Utilized React.js to redo the website to allow for that scalability it demanded.",
+        "Now, website remains easily accessible and quickly displays projects, along with allowing me to quickly make adjustments to the content without needing additional code pushes through a simple JSON file edit"
+      ],
+      "Tools": [
+        "React.js",
+        "Typescript",
+        "Node.js",
+        "AWS S3",
+        "AWS Cloudfront"
+      ],
+      "Videos": [
+      ],
+      "Images": [
+      ]
+    },
+    {
+      "Name": "Reconnections",
+      "Date": "2021-2022",
+      "CompanyName": "Extended Reality for Learning Lab at CSUSB",
+      "CompanyLink": "https://www.csusb.edu/xreal-lab",
+      "Description": "Reconnections is a 5-player multiplayer VR experience that tests the players on making eco-friendly, selfless choices or eco-harmful, selfish choices. Four players strap on the VR headsets to complete these tasks and reach the center of the island, where they will finally be able to see who else was altering the environment around them. The 5th player would be one of the people executing the study, watching all 4 players play as an invisible spectator on a standard Windows computer. I was involved for most of its development. I was responsible for altering/upgrading several core concept ideas including changing the motivation systems for the tasks to be based on real-life investments (time and challenge each option would present) rather than something like hunger or thirst like the client's original ideas were (there were no systems planned to punish/reward survival mechanics that hunger and thirst would affect). I was responsible for upgrading the code structure and systems utilizted in this project to be more scalable and modular to our client's and project needs as we continued developing. With my team, we adapted the entire code base of the project into Unreal's multiplayer framework, which would be the xREAL's first foray into multiplayer projects. I along with a collegue, were responsible for determining how adapt the code base by determining how the tasks will translate to other users, how they will load into the server and how the players will be able to interact with each other. I was responsible for initiating the push to include the fifth player for specating and server logging of events. Towards the latter half of the development cycle, I took on a more managerial position of ensuring the final parts of the projects fit into the codebase developed for the changed requirements of the project. ",
+      "DescriptionItems": [
+        "Test Item 1",
+        "Test Item 2",
+        "Test Item 3"
+      ], 
+      "Team": "1 Project Manager, 4-6 Software Developers (Me), 3 3D artists",
+      "Tools": [
+        "Unreal Engine 5.0",
+        "C++",
+        "Git",
+        "Blender"
+      ],
+      "Videos": [
+        "https://www.youtube-nocookie.com/embed/FJBjik6HSZ0?si=-lyrwJZjJN6_uMOo"
+      ],
+      "Images": [
+        "https://d2m6vacaxnz5yc.cloudfront.net/reconnections/reconnect1.png",
+        "https://d2m6vacaxnz5yc.cloudfront.net/reconnections/reconnect2.png",
+        "https://d2m6vacaxnz5yc.cloudfront.net/reconnections/reconnect3.png",
+        "https://d2m6vacaxnz5yc.cloudfront.net/reconnections/reconnect4.png"
+      ],
+      "ImageThumbnails": [
+        "https://d2m6vacaxnz5yc.cloudfront.net/reconnections/Thumbnails/reconnect1thumb.png",
+        "https://d2m6vacaxnz5yc.cloudfront.net/reconnections/Thumbnails/reconnect2thumb.png",
+        "https://d2m6vacaxnz5yc.cloudfront.net/reconnections/Thumbnails/reconnect3thumb.png",
+        "https://d2m6vacaxnz5yc.cloudfront.net/reconnections/Thumbnails/reconnect4thumb.png"
+      ],
+      "Thumbnail": "https://d2m6vacaxnz5yc.cloudfront.net/reconnections/Thumbnails/reconnect2thumb.png"
+    }
+  ],
+  "Career": [
+    {
+      "Title": "Programmer/Analyst",
+      "DescriptionItems": [
+        "The xREAL lab is a small group within CSUSB focused on researching, experimenting, and developing new services, applications, and more for faculty and students",
+        "They needed my programming expertise that I demonstrated as a student assistant to help increase their project intake and outtake",
+        "I developed several applications and led several projects that utilized the Unreal Engine, Python, Node.js and interacted with several clients to collect their use cases. I also continue to push for better coding practices and better project management",
+        "I have produced 5 projects since, built reusable applications to optimized development times, and continue to instill engineering practices"
+      ],
+      "CompanyName": "California State University San Bernardino",
+      "Date": "2022-Present",
+      "Link": "https://www.csusb.edu/xreal-lab"
+    },
+    {
+      "Title": "Student Assistant (Software Developer)",
+      "DescriptionItems": [
+        "Commissioned to make a VR multiplayer experience to help the client study behaviors of participants",
+        "With a team of 10, Designed core gameplay loop systems in UE5 for said project that would be use for in game task completion",
+        "Used for several promotional events, and increased the knowledge base with multiplayer knowledge"
+      ],
+      "CompanyName": "California State University San Bernardino",
+      "Date": "2021-2022",
+      "Link": "https://www.csusb.edu/xreal-lab"
+    }
+  ],
+  "Education": [
+    {     
+      "UniversityName": "California State University San Bernardino",
+      "UniversityLink": "https://www.csusb.edu/",
+      "Degrees": [
+        {
+          "DegreeTitle": "Bachelor in Science",
+          "DegreeMajor": "Computer Science",
+          "GPA": 3.94,
+          "Date": "2020-2022"
+        }
+      ]
+    },
+    {
+      "UniversityName": "Victor Valley College",
+      "UniversityLink": "https://www.vvc.edu/",
+      "Degrees": [
+        {
+          "DegreeTitle": "Associate in Science",
+          "DegreeMajor": "Computer Information Systems",
+          "Date": "2015-2019"
+        },
+        {
+          "DegreeTitle": "Associate in Science",
+          "DegreeMajor": "Math and Science",
+          "Date": "2015-2018"
+        }
+      ]      
+    }
+  ],
+  "Skills": {
+    "Languages": [
+      "C++", 
+      "Python", 
+      "JavaScript", 
+      "Typescript", 
+      "C\\#"
+    ],
+    "Frameworks": [
+      "Unreal Engine 4", 
+      "Unreal Engine 5", 
+      "Node.js", 
+      "React.js"
+    ],
+    "Tools": [
+      "Git", 
+      "Bash",
+      "Powershell"
+    ],
+    "Technical": [
+      "Project Management", 
+      "Agile Methodologies", 
+      "Prototyping and Testing", 
+      "Documentation", 
+      "UML Diagramming", 
+      "Automation"
+    ],
+    "Platforms": [
+      "Windows", 
+      "Android (Meta Quest)", 
+      "Linux (Debain-based)"
+    ]
+  }
+}
