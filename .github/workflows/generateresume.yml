@@ -44,5 +44,5 @@ jobs:
         uses: actions/upload-artifact@v4.4.3
         with:
           name: Resume.pdf
-          path: Resume-Generator/Resume.pdf
+          path: Resume-Generator/resume.pdf
           retention-days: 1
