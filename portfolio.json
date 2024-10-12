@@ -16,8 +16,8 @@
       "Date": "2022-2023",
       "ProjectSiteName": "GazaXR",
       "ProjectSiteLink": "https://www.gazaxr.com/",
-      "CompanyName": "Extended Reality for Learning Lab at CSUSB",
-      "CompanyLink": "https://www.csusb.edu/xreal-lab",
+      "CompanyName": "GazaXR, LLC",
+      "CompanyLink": "https://www.gazaxr.com/",
       "Description": " This is the Phoenix of Gaza, a project designed to reveal the inner life of the strip of Gaza that is not normally revealed to the outside world. The unreal version attempts to recreate and enhance the original Mozilla Hubs version by recreating the core features that were present, and then utilizing the Unreal Engine capabilities to further enhance this vision. The original version utilized Mozilla Hubs to hosted the imagery and videos of Gaza, but it was running into technical limitations. Utilizing PixelStreaming, this version was recreated in Unreal by using PixelStreaming to create the accessibilty that allows people who do not have the desktop or vr hardware to view the enhanced graphics of the Unreal Engine version. In addition epxeriences such as 360 photo spheres were enhanced with C++ (not possible with Mozilla Hubs) to allow the camera to be perfectly centered in the 360 sphere, and allowed the 360 sphere to be expanded client-side and a video to play that replaces the image thumbnail. The Unreal version recreates the multiplayer by taking advantage of Unreal Engine's built-in multiplayer systems, along with Vivox functionality to add excellent free voice chat for this small project. When I stopped working on it, there was much to be added, but I provided the core foundation and functionality that were the biggest concerns with the project. ",
       "DescriptionItems": [
         "Originally a “hub” located on Mozilla Hubs, it needed to moved to a new platform in order to be able to expand it",
@@ -55,7 +55,13 @@
         "https://d2m6vacaxnz5yc.cloudfront.net/phoenixofgaza/Thumbnails/gaza4thumb.png",
         "https://d2m6vacaxnz5yc.cloudfront.net/phoenixofgaza/Thumbnails/gaza5thumb.png"
       ],
-      "Thumbnail": "https://d2m6vacaxnz5yc.cloudfront.net/phoenixofgaza/Thumbnails/gaza3thumb.png"
+      "Thumbnail": "https://d2m6vacaxnz5yc.cloudfront.net/phoenixofgaza/Thumbnails/gaza3thumb.png",
+      "Tags": [
+        "UE",
+        "C++",
+        "Education",
+        "GazaXR"
+      ]
     },
     {
       "Name": "Cell Biology VR",
@@ -92,7 +98,14 @@
         "https://d2m6vacaxnz5yc.cloudfront.net/cellbiologyvr/Thumbnails/cellbio5thumb.png",
         "https://d2m6vacaxnz5yc.cloudfront.net/cellbiologyvr/Thumbnails/cellbio6thumb.png"        
       ],
-      "Thumbnail": "https://d2m6vacaxnz5yc.cloudfront.net/cellbiologyvr/Thumbnails/cellbio3thumb.png"
+      "Thumbnail": "https://d2m6vacaxnz5yc.cloudfront.net/cellbiologyvr/Thumbnails/cellbio3thumb.png",
+      "Tags": [
+        "UE",
+        "C++",
+        "Game",
+        "Education",
+        "CSUSB"
+      ]
     },
     {
       "Name": "xREAL VR Tutorial Module",
@@ -123,7 +136,13 @@
          "https://d2m6vacaxnz5yc.cloudfront.net/vrtutorial/Thumbnails/vrtut2thumb.png",
          "https://d2m6vacaxnz5yc.cloudfront.net/vrtutorial/Thumbnails/vrtut3thumb.png"
       ],  
-      "Thumbnail": "https://d2m6vacaxnz5yc.cloudfront.net/vrtutorial/Thumbnails/vrtut2thumb.png"
+      "Thumbnail": "https://d2m6vacaxnz5yc.cloudfront.net/vrtutorial/Thumbnails/vrtut2thumb.png",
+      "Tags": [
+        "UE",
+        "C++",
+        "Education",
+        "Internal"
+      ]
     },
     {
       "Name": "Unreal Chatbot",
@@ -151,7 +170,13 @@
       "ImageThumbnails": [
           "https://d2m6vacaxnz5yc.cloudfront.net/virtualassistant/Thumbnails/virtualass1thumb.png"
       ],
-      "Thumbnail": "https://d2m6vacaxnz5yc.cloudfront.net/virtualassistant/Thumbnails/virtualass1thumb.png"
+      "Thumbnail": "https://d2m6vacaxnz5yc.cloudfront.net/virtualassistant/Thumbnails/virtualass1thumb.png",
+      "Tags": [
+        "UE",
+        "Education",
+        "AI",
+        "CSUSB"
+      ]
     },
     {
       "Name": "Portfolio Website",
@@ -176,6 +201,14 @@
       "Videos": [
       ],
       "Images": [
+      ],
+      "Tags": [
+        "Typescript",
+        "Javascript",
+        "Web",
+        "Website",
+        "React.js",
+        "JSON"
       ]
     },
     {
@@ -211,7 +244,14 @@
         "https://d2m6vacaxnz5yc.cloudfront.net/reconnections/Thumbnails/reconnect3thumb.png",
         "https://d2m6vacaxnz5yc.cloudfront.net/reconnections/Thumbnails/reconnect4thumb.png"
       ],
-      "Thumbnail": "https://d2m6vacaxnz5yc.cloudfront.net/reconnections/Thumbnails/reconnect2thumb.png"
+      "Thumbnail": "https://d2m6vacaxnz5yc.cloudfront.net/reconnections/Thumbnails/reconnect2thumb.png",
+      "Tags": [
+        "UE",
+        "C++",
+        "Education",
+        "CSUSB",
+        "Game"
+      ]
     }
   ],
   "Career": [
