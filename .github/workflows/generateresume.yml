@@ -31,7 +31,7 @@ jobs:
       
       # Installs AWS-CLI
       - name: Install AWS-CLI
-        run: pip -m aws-shell
+        run: pip install aws-shell
       
       # Installs Tex-Live
       - name: Install Tex-Live
