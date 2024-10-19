@@ -29,6 +29,10 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v5.2.0
       
+      # Installs AWS-CLI
+      - name: Install AWS-CLI
+        run: pip -m aws-shell
+      
       # Installs Tex-Live
       - name: Install Tex-Live
         run: sudo apt-get install -y texlive
@@ -39,6 +43,13 @@ jobs:
 
       - name: Generate Script
         run: python Resume-Generator/ResumeAssembler.py portfolio.json
+
+      - name: Upload Resume to S3
+        run: aws s3 cp resume.pdf s3://ethanrportfoliowebsite/resume.pdf
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET }}
+          AWS_DEFAULT_REGION: 'us-west-1'
 
       - name: Upload Resume
         uses: actions/upload-artifact@v4.4.3
