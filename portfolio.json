@@ -1,7 +1,7 @@
  {
   "Bio": {
     "Name": "Ethan C. Randolph",
-    "Description": "I am Ethan Randolph. A recent graduate with a BS in Computer Science, I strive to grow and improve myself and the technologies around me utilizing the tools at hand.\n\nI was last employed at California State University, San Bernardino. I was a XR Game Engine Programmer, who is seeking to improve higher education through the use of bleeding edge and experimental technologies. Please take a look at the projects I have contributed at this position.",
+    "Description": "Hello, I am Ethan Randolph. I am one of continuous improvement and motivated to make a change where I go. With my B.S. in Computer Science (that I obtained in 2022), I apply this methodology to the software industry, to ensure that both my workplace and my clients get the latest and the highest quality service that I can offer them. Whether I am quickly catching up to my peers or bringing them along with me, I continue to move forward. Here is how I got to this point: I started my humble beginnings at Victor Valley College, eventually transferring to California State University San Bernardino. Little did I know this is where I will continue to grow my career. During my senior year, I became an intern (or, a student assistant), to help a small startup of a lab called the Extended Reality for Learning Lab within CSUSB. The motivations of the coworkers I encountered there all wanted to help further education in experimental ways. This mainly involved utilizing Virtual Reality with the Unreal Engine to help develop custom projects to clients such as faculty that also shared our vision. Despite graduating with my degree, there was a lot I picked up quickly to adapt and help with one of their major projects. Through that project, I learned not only how to utilize the Unreal Engine, but also its high-level multiplayer api and working with the Meta Quest 2. This quick evolution would earn myself a spot to continue working at the company. With this opportunity, I did not hesitate to continue to take on projects, lead them, and continue to push for not only my own personal growth, but growth for the lab as well. I would continue to learn and utilize other technologies such as Node.JS, Python APIs, React.JS, Bash and Powershell Scripting, and more. My latest project with the lab involves evolving the development pipeline of my workplace, to meet closer to the ever evolving industry standard. By switching our development pipeline to a CI/CD model, along with tackling the unique cases present with working with the game engine in addition to more traditional software stacks, I continue to adapt myself to the current industry standards and continue to uplift the workplace I am stationed.",
     "Email": "ethan1randolph@gmail.com",
     "LinkedInLink": "https://www.linkedin.com/in/ethan-randolph-6a7489246/",
     "LinkedIn": "linkedin.com/in/ethan-randolph-6a7489246/",
@@ -27,7 +27,10 @@
       "Tools": [
         "Python",
         "LaTeX",
-        "Github Actions"
+        "Github Actions",
+        "AWS S3",
+        "AWS Cloudfront",
+        "AWS IAM"
       ],
       "Tags": [
         "Python",
@@ -39,11 +42,11 @@
     },
     {
       "Name": "Portfolio Website",
-      "Date": "2022-2023",
+      "Date": "2022-2024",
       "CodeRepoName": "Github",
       "CodeRepoLink": "https://github.com/ethanr555/ethanr555.github.io",
-      "ProjectSiteName": "ethanr555.github.io",
-      "ProjectSiteLink": "ethanr555.github.io",
+      "ProjectSiteName": "ethanrandolph.com",
+      "ProjectSiteLink": "https://ethanrandolph.com",
       "Description": "This website is designed not only for practice for HTML, CSS, and JavaScript, but it is also intended to demonstrate the projects I have worked on in my career. I have a mixture of career portfolio for projects I have worked on for my job, while my side projects are for my free time and allow me to flex my skills for stuff I am more passionate about. The JSON this website reads from also is the same one that the Resume Generator can use, which allows for multiple fronts to be updated at once.",
       "DescriptionItems": [
         "Revamped my original HTML-only website into a static React.js website",
