@@ -213,8 +213,7 @@
         "Blender"
       ],
       "Videos": [
-        "https://www.youtube-nocookie.com/embed/iTBotKlVX5A?si=yOC1XImNrNxgflru",
-        "https://www.youtube-nocookie.com/embed/835QfeTZBDo?si=XvPS_csxmq87CiCy"
+        "https://www.youtube-nocookie.com/embed/nOMlGThzBGg?si=yOC1XImNrNxgflru"
       ],
       "Images": [
         "https://d2m6vacaxnz5yc.cloudfront.net/cellbiologyvr/cellbio3.png",
@@ -285,10 +284,11 @@
     {
       "Title": "Software Developer",
       "DescriptionItems": [
-        "Developed the Phoenix of Gaza XR project, a VR game that contains rare 360 video footage and Gaza-inspired architecture",
-        "Took the existing codebase created while under CSUSB and refactored redundant and vestigal code fragments",
-        "Added new features to expand on the experience, such as a tour guide NPC, optimized map loading, etc.",
-        "Updated project has been showcased at University of Redlands, University of Colorado, and soon to be showcased at Princeton University"
+	"Continued work on Unreal Engine 5 codebase with C++ and Blueprint developed while at CSUSB",
+	"Optimized application for loading 120 individual HD 360 videos and reduced boot times of application by 500\%",
+	"Designed more accessible one-handed controls for Meta Quest 2/3 Controllers",
+	"Assisted in implementation of ManageXR MDM software and wrote easy to follow instructions to aid in application and headset deployment, resulting in 50\% less requests for further assistance",
+	"Deployed application to events at locations such as MIT, Yale, and Princeton, totaling over 500 participants and received overall positive feedback"
       ],
       "CompanyName": "GazaXR, LLC",
       "Date": "Aug. 2024 - Mar. 2025",
@@ -297,11 +297,11 @@
     {
       "Title": "Programmer/Analyst",
       "DescriptionItems": [
-        "Developed software applications for faculty and staff under the Extended Reality for Learning Lab at CSUSB",
-        "Analyzed key areas that the xREAL lab was lacking in its internal structure, while maintaining development for end-user projects",
-        "Created an automation pipeline utilizing Github Actions to automatically build, test, and update projects",
-        "Managed faculty requests and led development on several projects per their requests",
-        "Improved development time for redundant projects, from 2 months to 2 weeks for simpler projects"
+	"Led and developed over 7 research projects and a shared internal codebase developed with Unreal Engine and C++",
+	"Initiated development of internal codebase and automated CI/CD pipeline, reduced project creation time by 60\%, and improved bugfix porting",
+	"Implemented project template management and creation script with Python, Bash, and Powershell, with doc generation templates with Doxygen",
+	"Initiated Github Actions CI/CD pipeline with Python and YAML scripts",
+	"Collaborated with over 10 faculty and staff of university, ensuring MVP was established and needs were met"
       ],
       "CompanyName": "California State University San Bernardino",
       "Date": "Feb. 2023 - Feb. 2025",
@@ -310,10 +310,11 @@
     {
       "Title": "Student Programmer",
       "DescriptionItems": [
-        "Learned Unreal Engine 5 and upgraded my C++ knowledge",
-        "Developed a 4 player multiplayer project with a team of 10",
-        "Designed core task system and multiplayer foundations for project"
-      ],
+	"Onboarded to help with a research prototype that barely had begun production",
+	"Engineered core gameplay systems, such as 8 objectives and 5-player multiplayer interactions and groundwork in the Unreal Engine with C++",
+	"Grew to a leader position with project and decided key factors at late stage development with artists and clients",
+	"Gained experience with working with a team, improved the company's knowledge of the Unreal Engine Framework"
+	],
       "CompanyName": "California State University San Bernardino",
       "Date": "Nov. 2021 - Dec. 2022",
       "Link": "https://www.csusb.edu/xreal-lab"
@@ -352,22 +353,27 @@
   "Skills": {
     "Languages": [
       "C++", 
+      "Go",
       "Python", 
+      "SQL",
       "JavaScript", 
       "Typescript", 
+      "BASH",
+      "Powershell",
       "C\\#",
       "LaTeX"
     ],
     "Frameworks": [
-      "Unreal Engine 4", 
-      "Unreal Engine 5", 
+      "Unreal Engine", 
       "Node.js", 
-      "React.js"
+      "React.js",
+      "Templ",
+      "TailwindCSS"
     ],
     "Tools": [
       "Git", 
-      "Bash",
-      "Powershell"
+      "Make",
+      "NPM"
     ],
     "Technical": [
       "Project Management", 
@@ -378,9 +384,11 @@
       "Automation"
     ],
     "Platforms": [
+      "Ubuntu",
+      "Debian",
       "Windows", 
-      "Android (Meta Quest)", 
-      "Linux (Debain-based)"
+      "Meta Horizon OS",
+      "AWS"
     ]
   }
 }
