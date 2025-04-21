@@ -1,7 +1,7 @@
  {
   "Bio": {
     "Name": "Ethan C. Randolph",
-    "Description": "Hello, I am Ethan Randolph. I am one of continuous improvement and motivated to make a change where I go. With my B.S. in Computer Science (that I obtained in 2022), I apply this methodology to the software industry, to ensure that both my workplace and my clients get the latest and the highest quality service that I can offer them. Whether I am quickly learning with my peers or lifting them up with my expertise, I continue to move forward. At CSUSB, I was mainly involved with utilizing Virtual Reality with the Unreal Engine to help develop custom projects to clients such as faculty that also shared our vision. I have practiced with UE's multiplayer API, headless CLI tooling, shared code plugin management between several projects, all while creating an automated pipeline with Github Actions to help furthen xREAL Lab's productivity and stability like never before. I continued to work with GazaXR, LLC, in order to present a unique VR experience to show guests Gaza before the war that began on October 7, 2023. I also continue to furthen my skills with my side projects, such as this website or my resume generator.",
+    "Description": "Hello, my name is Ethan Randolph. I am a Computer Science graduate that has worked in Software Development for the past 3 years. I am one of continuous improvement and am passionate about making core changes that will help improve and expand an existing codebase, project, or company. In the past, I mainly worked with CSUSB in developing research prototypes with virtual reality and the Unreal Engine. That has given me experience with working with a variety of languages including C++, managing projects and developing leadership skills with leading other programmers, interacting with clients for both meeting their needs and giving technical consulting, and developing core infrastructure changes with CI/CD pipelines and general script development. I continued this work with a contract job with GazaXR, LLC, where I worked with improving one of these projects into an experience that they tour around the world, along with setting up their infrastructure with ManageXR and working with various event hosts to ensure smooth deployment. Now, I continue to develop my skills with working on projects that spark an interest with me, like rewriting my website to be full stack and using fun languages like Golang. If you are interested in working with me, my contact information is down below.",
     "Email": "ethan1randolph@gmail.com",
     "LinkedInLink": "https://www.linkedin.com/in/ethan-randolph-6a7489246/",
     "LinkedIn": "linkedin.com/in/ethan-randolph-6a7489246/",
@@ -11,6 +11,77 @@
     "Website": "ethanrandolph.com"
   },
   "Projects": [
+    {
+      "Name": "Portfolio Webserver",
+      "Date": "2025",
+      "CodeRepoName": "Github",
+      "CodeRepoLink": "https://github.com/ethanr555/PortfolioWebServer",
+      "Description": "I wanted to convert my existing ReactJS website into a full stack application, because I wanted to have more control of what I wanted to do with it in the future and wanted to make it more optimal for its use-case. I wanted server-sided rendering and a database to manage all my information rather than an ever-increasing json file I had to repeatedly send to viewers. I have begun rewriting the website by using Golang as the webserver. It integrates a module called PGX that acts as the PostgreSQL driver for my database. I decided to use Templ after working with the included html templating module called html/template, after realizing that the structure I had in mind for the templates still resembled Javascript X. Templ fit the bill while remaining completely server-sided. The website is dynamic, depending on what is available in the database, such as /projects/id refering to that project instead of everything loaded immediately like how the previous website handled it. Since the HTML is directly received instead of ReactJS generating it after running client side, it has become more SEO for webcrawlers. Another attention to detail I have been following is ensuring that proper HTML elements are used and alternatives elements are present when a Javascript runtime is not present. For example, there is a Javascript image/video carousel that is fun to look at, but for browsers without javascript, a section with image links is present instead. I want to ensure the website remains accessible in ways like this, something my previous website failed to do. Finally, I decided to try out TailwindCSS for styling it instead of raw CSS like the previous website. While I am still addressing redundancy issues, TailwindCSS has proven to be intuitive for getting the design up quickly. I also have ventured to make a Makefile to help build the various elements for this project, as unlike with the previous website this one does have multiple pieces.",
+      "DescriptionItems": [
+      	"Converted my previous portfolio website by rewriting website from ReactJS to server-sided rendering",
+	"Wrote a webserver in Go, initialized a PostgreSQL database containing over 15 tables, and hosted images on AWS S3 and Cloudfront",
+	"Designed 10+ server-side rendered HTML templates built with Templ and styled website with TailwindCSS",
+	"Optimized website to be SEO-friendly and viewable on browsers than do not have Javascript enabled"
+      ],
+      "Tools": [
+        "Go",
+        "SQL",
+        "Postgresql",
+	"Templ",
+	"Javascript",
+	"Make",
+	"TailwindCSS",
+        "AWS S3",
+        "AWS Cloudfront",
+        "AWS EC2"
+      ],
+      "Videos": [
+      ],
+      "Images": [
+      ],
+      "Tags": [
+        "Go",
+        "SQL",
+        "Postgresql",
+	"Templ",
+	"Javascript",
+	"Make",
+	"TailwindCSS",
+        "AWS S3",
+        "AWS Cloudfront",
+        "AWS EC2"
+      ]
+    },
+    {
+      "Name": "360 Photo Research Project",
+      "Date": "2025",
+      "CompanyName": "Extended Reality for Learning Lab at CSUSB",
+      "CompanyLink": "https://www.csusb.edu/xreal-lab",
+      "Description": "This research project was done in collaboration with Dr. Samantha Juan. It leverages the Unreal Engine to display several 360 images, each with mistakes in a nursing simulation lab. The user points and clicks on the mistakes in the images to identify them. The user can also use the arrows on the image to teleport to alternate views. The time tracked between the mistakes and sequence are recorded and printed into a log after all mistakes are identified. It also utilizes the Meta Quest Pro's eye tracking and keeps track of what the user is looking at, to help determine where students are observing while trying to look for mistakes.\n I was the programming lead, with a fellow programmer. I handled the base code framework, image loading, editor assets to help place mistake and teleport markers, and player controls. I directed the fellow programmer and guided with tracking eye tracking data and drawing it into a heatmap image.",
+      "DescriptionItems": 
+      [
+        "Designed a 360 image viewing research application with a fellow programming and with a professor",
+        "Created the base framework with Unreal Engine, such as custom assets to handle marker placement in a 360 image and image loading",
+        "Created and led development on a prototype to collect preliminary data for research grant"
+      ],
+      "Tools": [
+        "Unreal Engine 5",
+        "C++",
+        "Blueprint",
+        "360 images",
+        "Unreal Editor Tooling"
+      ],
+      "Tags": [
+        "UE",
+        "C++",
+        "Education",
+        "Research",
+        "360"
+      ],
+      "Videos": [
+	"https://www.youtube.com/embed/buSAyGCCtlc?si=zFRICgBsBQ8eerzu"
+      ]
+    },
     {
       "Name": "Resume Generator",
       "Date": "2024",
@@ -77,7 +148,7 @@
     },
     {
       "Name": "The Phoenix of Gaza XR",
-      "Date": "2022-2024",
+      "Date": "2022-2025",
       "ProjectSiteName": "GazaXR",
       "ProjectSiteLink": "https://www.gazaxr.com/",
       "CompanyName": "GazaXR, LLC",
@@ -124,7 +195,7 @@
     },
     {
       "Name": "Cell Biology VR",
-      "Date": "2022-2023",
+      "Date": "2022-2024",
       "CompanyName": "Extended Reality for Learning Lab at CSUSB",
       "CompanyLink": "https://www.csusb.edu/xreal-lab",
       "Description": " This was a project commmission by a Biology professor to reconstruct a cell that a student can explore. It stays simplified for the course material it was designed for and tests the students on their Biology knowledge to complete the assignment. Students are to go to each organelle and configure it using levers. They will be guided to some extent and given a few tries. After they complete that stage, a new stage occurs that causes an extracellular event. In this case, it was heat stress, and the student will have to reconfigure the cell to adapt to the new situation with new options present and new areas of the cell they can explore. I was the former project lead of this project. I met with the professor on a bi-weekly basis, and designed the systems to read lesson files that store the organelle positions and answers, in case this project was expanded upon. I learned Niagara systems to create many particle systems to add visual flair in the VR headset without taxing it too much from traditional means. I also created a lesson editor, which is an inhouse tool (accessible as a map in the Unreal Engine project files) that allows other developers to easily design different lessons for testing purposes or to create alterations of the existing elements per the client's requests. I also worked with our artist to provide art inspirations based on the professor'srequirements and to ensure that the technical design of the models allowed our programmers to easily adjust them for the spawn systems and visual display. ",
@@ -220,7 +291,7 @@
         "Updated project has been showcased at University of Redlands, University of Colorado, and soon to be showcased at Princeton University"
       ],
       "CompanyName": "GazaXR, LLC",
-      "Date": "2024-Present",
+      "Date": "Aug. 2024 - Mar. 2025",
       "Link": "https://www.gazaxr.com/"
     },
     {
@@ -233,7 +304,7 @@
         "Improved development time for redundant projects, from 2 months to 2 weeks for simpler projects"
       ],
       "CompanyName": "California State University San Bernardino",
-      "Date": "2022-Present",
+      "Date": "Feb. 2023 - Feb. 2025",
       "Link": "https://www.csusb.edu/xreal-lab"
     },
     {
@@ -244,7 +315,7 @@
         "Designed core task system and multiplayer foundations for project"
       ],
       "CompanyName": "California State University San Bernardino",
-      "Date": "2021-2022",
+      "Date": "Nov. 2021 - Dec. 2022",
       "Link": "https://www.csusb.edu/xreal-lab"
     }
   ],
