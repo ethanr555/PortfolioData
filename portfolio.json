@@ -285,9 +285,9 @@
       "Title": "Software Developer",
       "DescriptionItems": [
 	"Continued work on Unreal Engine 5 codebase with C++ and Blueprint developed while at CSUSB",
-	"Optimized application for loading 120 individual HD 360 videos and reduced boot times of application by 500\%",
+	"Optimized application for loading 120 individual HD 360 videos and reduced boot times of application by 500%",
 	"Designed more accessible one-handed controls for Meta Quest 2/3 Controllers",
-	"Assisted in implementation of ManageXR MDM software and wrote easy to follow instructions to aid in application and headset deployment, resulting in 50\% less requests for further assistance",
+	"Assisted in implementation of ManageXR MDM software and wrote easy to follow instructions to aid in application and headset deployment, resulting in 50% less requests for further assistance",
 	"Deployed application to events at locations such as MIT, Yale, and Princeton, totaling over 500 participants and received overall positive feedback"
       ],
       "CompanyName": "GazaXR, LLC",
@@ -298,7 +298,7 @@
       "Title": "Programmer/Analyst",
       "DescriptionItems": [
 	"Led and developed over 7 research projects and a shared internal codebase developed with Unreal Engine and C++",
-	"Initiated development of internal codebase and automated CI/CD pipeline, reduced project creation time by 60\%, and improved bugfix porting",
+	"Initiated development of internal codebase and automated CI/CD pipeline, reduced project creation time by 60%, and improved bugfix porting",
 	"Implemented project template management and creation script with Python, Bash, and Powershell, with doc generation templates with Doxygen",
 	"Initiated Github Actions CI/CD pipeline with Python and YAML scripts",
 	"Collaborated with over 10 faculty and staff of university, ensuring MVP was established and needs were met"
